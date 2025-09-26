@@ -314,7 +314,7 @@ Mappings should be in the format (new-font-face 'old-font-face \"description\") 
   )
 
 
-(defvar nim-ts-mode--font-base-theme 'doom-one)
+(defvar nim-ts-mode--font-base-theme (car custom-enabled-themes))
 
 
 (defmacro nim-ts-mode--remap-fonts ()
